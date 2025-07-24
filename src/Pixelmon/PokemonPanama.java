@@ -59,7 +59,7 @@ public class PokemonPanama {
         List<Ataque> ataques = new ArrayList<>();
         ataques.add(new Ataque("Lengüetazo", 22));
         ataques.add(new Ataque("Salto Tóxico", 28));
-        ataques.add(new Ataque("Burbuja", 19));
+        ataques.add(new Ataque("Lanzallamas", 19));
         return new PokemonPanama("Doraflare", 90, ataques, "imagen/RanaDorada.png", "AtaqueImagen/RanaDorada.png", "DmgRecibido/RanaDorada.png");
     }
 
