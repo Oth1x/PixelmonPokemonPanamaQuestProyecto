@@ -19,7 +19,7 @@ public class PokemonSeleccion extends JFrame {
     private JLabel lbIguana;
 
     public PokemonSeleccion() {
-        setTitle("Elige tu Pokémon");
+        setTitle("Elige tu PixelMon");
         setSize(600, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -27,7 +27,7 @@ public class PokemonSeleccion extends JFrame {
         setContentPane(panelElegirPokemon);
 
         if (lbSeleccion != null) {
-            lbSeleccion.setText("Elija su Pokémon");
+            lbSeleccion.setText("Elige tu PixelMon");
         }
 
         cargarImagenes();
