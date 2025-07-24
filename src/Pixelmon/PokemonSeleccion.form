@@ -17,6 +17,7 @@
         </constraints>
         <properties>
           <font name="Courier New" size="24" style="1"/>
+          <foreground color="-3818444"/>
           <text value=""/>
         </properties>
       </component>
