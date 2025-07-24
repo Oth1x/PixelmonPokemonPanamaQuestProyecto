@@ -65,7 +65,6 @@ public class PokemonSeleccion extends JFrame {
     }
 
     private void iniciarCombate(PokemonPanama pokemonJugador) {
-        System.out.println("Has elegido a: " + pokemonJugador.getNombre());
         List<PokemonPanama> posiblesOponentes = new ArrayList<>();
         posiblesOponentes.add(PokemonPanama.crearNeque());
         posiblesOponentes.add(PokemonPanama.crearRanaDorada());
@@ -74,7 +73,6 @@ public class PokemonSeleccion extends JFrame {
         Random random = new Random();
         int indiceAleatorio = random.nextInt(posiblesOponentes.size());
         PokemonPanama oponente = posiblesOponentes.get(indiceAleatorio);
-        System.out.println("Tu oponente será: " + oponente.getNombre());
         Combate combate = new Combate(pokemonJugador, oponente);
         combate.setVisible(true);
         dispose();
