@@ -46,7 +46,7 @@ public class PokemonPanama {
         return rutaImagenDmgRecibido;
     }
 
-
+//Cambiar datos de los ataques de los pixelmon
     public static PokemonPanama crearNeque() {
         List<Ataque> ataques = new ArrayList<>();
         ataques.add(new Ataque("Mordisco", 20));

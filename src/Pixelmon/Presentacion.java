@@ -32,16 +32,16 @@ public class Presentacion extends JFrame {
             String textoPresentacion = "Universidad Tecnológica de Panamá\n" +
                     "Facultad de Ingeniería de Sistemas Computacionales\n\n" +
                     "Licenciatura en Desarrollo de Software\n\n" +
-                    "Materia: Programacion de Software\n\n" +
+                    "Materia: Programación de Software\n\n" +
                     "Proyecto Semestral:\n" +
                     "PixelMon: PanamaQuest\n\n" +
                     "Estudiante:\n" +
                     "Astrid Madrid 8-992-1420\n" +
-                    "Ryan Velasquez 8-1022-291\n" +
-                    "Jonathan Velasquez 8-1022-292\n" +
+                    "Ryan Velásquez 8-1022-291\n" +
+                    "Jonathan Velásquez 8-1022-292\n" +
                     "Alex Wu 3-757-290\n" +
                     "Profesor:\n" +
-                    "Yanguez Rodrigo\n\n" +
+                    "Yángüez, Rodrigo\n\n" +
                     "Fecha: 25/07/2025";
 
             infoTextArea.setText(textoPresentacion);

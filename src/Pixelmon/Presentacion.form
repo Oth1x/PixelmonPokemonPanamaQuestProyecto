@@ -31,7 +31,7 @@
           </grid>
         </constraints>
         <properties>
-          <font name="Courier New" size="12" style="1"/>
+          <font name="Courier New" size="16" style="1"/>
           <text value=""/>
         </properties>
       </component>

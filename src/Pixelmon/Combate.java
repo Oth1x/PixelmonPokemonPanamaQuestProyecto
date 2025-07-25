@@ -26,6 +26,7 @@ public class Combate extends JFrame {
         this.pokemonJugador = pokemonJugador;
         this.pokemonOponente = pokemonOponente;
 
+        //editar la ventana del combate
         setTitle("¡Combate Pokémon!");
         setSize(700, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -49,6 +50,7 @@ public class Combate extends JFrame {
         textCombate.setCaretPosition(textCombate.getDocument().getLength());
     }
 
+    //bloque para asignar cada componente del java swing de esta ventana
     private void inicializarCombate() {
         lbPokemon1.setText(pokemonJugador.getNombre());
         lbPokemon2.setText(pokemonOponente.getNombre());
@@ -112,6 +114,7 @@ public class Combate extends JFrame {
         cargarImagen(lbPokemonImg1, pokemonJugador.getRutaImagenAtaque());
         cargarImagen(lbPokemonImg2, pokemonOponente.getRutaImagenDmgRecibido());
 
+        //timer para el delay de los ataques en la batalla
         Timer timerAnimacion = new Timer(500, e -> {
             cargarImagen(lbPokemonImg1, pokemonJugador.getRutaImagen());
             cargarImagen(lbPokemonImg2, pokemonOponente.getRutaImagen());
@@ -127,7 +130,7 @@ public class Combate extends JFrame {
         timerAnimacion.setRepeats(false);
         timerAnimacion.start();
     }
-
+//bloque del turno del oponente
     private void turnoOponente() {
         agregarAlLog("Turno del oponente...");
         Timer timerEspera = new Timer(1000, e -> {
