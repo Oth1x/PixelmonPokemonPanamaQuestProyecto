@@ -13,7 +13,7 @@ public class MenuPrincipal extends JFrame {
 
     public MenuPrincipal() {
         setTitle("Pokemon Panameño");
-        setSize(500, 400);
+        setSize(600, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);
